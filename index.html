@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Encountering Development — Presentation Download</title>
+<style>
+  :root {
+    --bg: #16302c;
+    --accent: #e59a6e;
+    --card-bg: #1f3d38;
+    --text: #f5ead9;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg);
+    font-family: Georgia, 'Times New Roman', serif;
+    color: var(--text);
+    padding: 24px;
+  }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid rgba(245, 234, 217, 0.15);
+    border-radius: 14px;
+    padding: 48px 40px;
+    max-width: 520px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+  }
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+    color: var(--text);
+  }
+  h2 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--accent);
+    margin-top: 0;
+    margin-bottom: 28px;
+  }
+  p.desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: rgba(245,234,217,0.85);
+    margin-bottom: 32px;
+  }
+  .btn {
+    display: inline-block;
+    background: var(--accent);
+    color: #1a1a1a;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 14px 32px;
+    border-radius: 8px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(229, 154, 110, 0.3);
+  }
+  .meta {
+    margin-top: 24px;
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem;
+    color: rgba(245,234,217,0.5);
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Encountering Development</h1>
+    <h2>The Making and Unmaking of the Third World — Group 8 Presentation</h2>
+    <p class="desc">
+      A slide presentation on Arturo Escobar's <em>Encountering Development</em>,
+      covering the modernization paradigm, the problematization of poverty,
+      the anthropology of development, and pathways toward post-development.
+    </p>
+    <a class="btn" href="presentation.pdf" download>Download PDF</a>
+    <div class="meta">PDF · ~1.9 MB</div>
+  </div>
+</body>
+</html>
